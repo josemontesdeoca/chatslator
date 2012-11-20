@@ -15,7 +15,7 @@ TRANSLATE_BASE_URI = 'https://www.googleapis.com/language/translate/v2'
 TRANSLATE_API_PARAMETERS = 'key=%(key)s&target=%(target)s&q=%(q)s&format=text'
 HELP_MSG = ("Translate a text by typing '<target> <text>' "
             "E.g 'es Hello Bot!'. To learn more, go to %s")
-RESULT_MSG = "'%s' _powered by Google translate_"
+RESULT_MSG = "%s *_powered by Google translate_*"
 RESULT_ERROR_MSG = 'Whoops... something wrong happened. Try again later.'
 COMMAND_ERROR_MSG = "Wrong Command '%s'. Type '/help' for more information."
 

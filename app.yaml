@@ -1,0 +1,12 @@
+application: your-app-id
+version: 2
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /.*
+  script: main.application
+
+inbound_services:
+- xmpp_message
